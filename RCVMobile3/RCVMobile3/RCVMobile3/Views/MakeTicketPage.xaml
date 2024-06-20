@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RCVMobile3.Views.MakeTicketPage">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <Grid Margin="20" BackgroundColor="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Row="0">
+                    <Label Text="RCV" FontSize="100" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" TextColor="#0A151F" Margin="0" Padding="0"/>
+                    <Label Text="Сделать заказ" TextColor="#0A151F" HorizontalOptions="CenterAndExpand" Margin="0,-20,0,0" FontSize="14" FontAttributes="Bold" Padding="0"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="1" Padding="0" Margin="0,-70,0,0">
+                    <Entry x:Name="ProductID" WidthRequest="350" BackgroundColor="Transparent" Placeholder="АРТИКУЛ" TextColor="Black"/>
+                    <Entry x:Name="UserID" WidthRequest="350" BackgroundColor="Transparent" Placeholder="ВАШ АЙДИ" TextColor="Black"/>
+                    <Entry x:Name="Adress" WidthRequest="350" BackgroundColor="Transparent" Placeholder="АДРЕС" TextColor="Black"/>
+                    <Entry x:Name="ContactNumber" WidthRequest="350" BackgroundColor="Transparent" Placeholder="НОМЕР ТЕЛЕФОНА" TextColor="Black"/>
+                    
+                    <Button  WidthRequest="350" HeightRequest="40" x:Name="AddTikcet"  Clicked="AddTikcet_Clicked" BackgroundColor="#D9D9D9" TextTransform="Uppercase" Text="Заказать" TextColor="Black" BorderWidth="1" BorderColor="Black"/>
+
+                </StackLayout>
+
+
+
+            </Grid>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

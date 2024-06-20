@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="..//css/kartochkaTovara.css">
+
+    <link rel="icon" href="../icon/rcvlogo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossoWrigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>RCV</title>
+</head>
+<body>
+    <header>
+
+        <!-- Ссылки слева -->
+        <div class="left-links">
+            <a href="..//html/authUserNovinkiPage.html">НОВИНКИ</a>
+            <a href="#" id="catalog-link">КАТАЛОГ 🡫</a>
+            <a href="..//html/authUserMagazineAdressPage.html" id="offMagazin-link">ОФФ МАГАЗИНЫ</a>
+        </div>
+
+        <!-- Выпадающее меню каталога -->
+        <div class="catalog-form" id="catalog-form">
+            <div class="catalog-block">
+                <h1>ВЕРХ</h1>
+                <ul>
+                    <li><a href="#">ФУТБОЛКИ И ТОПЫ</a></li>
+                    <li><a href="#">РУБАШКИ</a></li>
+                    <li><a href="#">ПУЛОВЕРЫ И СВИТШОТЫ</a></li>
+                    <li><a href="..//html/authUserPalto.html">ПАЛЬТО И КУРТКИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>НИЗ</h1>
+                <ul>
+                    <li><a href="..//html/authUserKatalogBrukoDginsiPage.html">БРЮКИ И ДЖИНСЫ</a></li>
+                    <li><a href="#">ПЛАТЬЯ И ЮБКИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>ОБУВЬ</h1>
+                <ul>
+                    <li><a href="#">КРОСОВКИ</a></li>
+                    <li><a href="#">БОТИНКИ</a></li>
+                    <li><a href="#">ТУФЛИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>АКСЫ</h1>
+                <ul>
+                    <li><a href="#">ПОДВЕСКИ</a></li>
+                    <li><a href="#">КОЛЬЦА</a></li>
+                    <li><a href="#">БРАСЛЕТЫ</a></li>
+                    <li><a href="#">ГРИЛЗЫ</a></li>
+                    <li><a href="#">СЕРЬГИ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Логотип-->
+        <a href="..//html/authUserMainPage.html" class="center-title">RCV</a>
+
+        <!--  Ссылки справа -->
+        <div class="right-links">
+            <a href="..//html/sapportPage.html" id="sapport-link">САППОРТ</a>
+            <a href="..//html/profilPage.html" id="profile-link">404</a>
+            <script>
+                // Извлекаем nickname из localStorage
+                const nickname = localStorage.getItem('nickname');
+                document.getElementById('profile-link').innerText = nickname;
+            </script>
+            <a href="#"><img src="..//icon/search.png" alt="ПОИСК" id="search-link"></a>
+            <a href="..//html/backpack.html"><img src="..//icon/backpack.png" alt="РЮКЗАК" id="backpack-link"></a>
+        </div>
+
+        <!-- Поиск по странице -->
+        <div class="overlay" id="overlay"></div>
+        <div class="search-form" id="search-form">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="ПОИСК ПО САЙТУ">
+                <a href="#" id="send-link">🡪</a>
+            </div>
+            <div class="result">
+                <div id="search-result"></div> <!-- Блок для вывода результата -->
+            </div>
+            <div class="search-results-col">
+                <label>КОЛИЧЕСТВО РЕЗУЛЬТАТОВ: </label>
+                <div id="result-count"></div> <!-- Блок для вывода количества результатов -->
+            </div>
+        </div>
+        <div class="popup-container" id="popup"><!-- БЛОК ДОБАВЛЕНИЯ ТОВАРА -->
+            <div class="popup">
+                <p>Товар добавлен в рюкзак!</p>
+            </div>
+        </div>
+    </header>
+<!-- Основной контейнер -->
+<div class="main-content">
+    <div class="content-wrapper">
+        <div class="block-wrapper">
+            <!-- Вертикальный блок фоток -->
+            <div class="block-left">
+                <div class="image-container">
+
+                </div>
+            </div>
+            <div class="block-left">
+                <div class="image-container">
+
+                </div>
+            </div>
+            <div class="block-left">
+                <div class="image-container">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Контейнер информации о товаре -->
+        <div class="product-info">
+            <h1>ДЖИНСЫ  NEW RCV</h1>
+            <p class="description">МЫ НЕ ПРОСТО СОЗДАЛИ ДЖИНСЫ, МЫ СОЗДАЛИ ИСТОРИЮ. КАЖДАЯ ПОТЕРТОСТЬ – ЭТО НАШЕ ПРОИЗВЕДЕНИЕ ИСКУССТВА, КАЖДЫЙ РАЗРЫВ – АКТ ИНДИВИДУАЛЬНОСТИ. RCV - ЭТО НЕ ПРОСТО БРЕНД, ЭТО СТИЛЬ ЖИЗНИ. НАШИ ДЖИНСЫ НЕ ПРОСТО СЛЕДУЮТ ТРЕНДАМ, ОНИ ИХ ЗАДАЮТ.</p>
+            <h3 class="textile">ТЕКСТИЛЬ</h3>
+            <p></p>
+            <h3 class="color">ЦВЕТ</h3>
+            <p>ЧЕРНЫЙ + КОРИЧНЕВЫЙ + ТЕЛЕСНЫЙ</p>
+            <h3>АРТИИКУЛЬ</h3>
+            <p>ДЖРСВ24Г</p>
+            <h3>РАЗМЕРНАЯ СЕТКА ОДЕЖДЫ</h3>
+            <!-- Размеры одежды  -->
+            <div class="size-chart-wrapper">
+                <div class="size-chart">
+                    <table>
+                        <tr>
+                            <td></td>
+                            <td>ДЛИНА</td>
+                            <td>ШИРИНА</td>
+                            <td>РУКАВ</td>
+                        </tr>
+                        <tr>
+                            <td>XS</td>
+                            <td>59,5</td>
+                            <td>34</td>
+                            <td>64</td>
+                        </tr>
+                        <tr>
+                            <td>S</td>
+                            <td>61</td>
+                            <td>36</td>
+                            <td>66</td>
+                        </tr>
+                        <tr>
+                            <td>M</td>
+                            <td>63</td>
+                            <td>39</td>
+                            <td>68</td>
+                        </tr>
+                        <tr>
+                            <td>L</td>
+                            <td>65</td>
+                            <td>42</td>
+                            <td>70</td>
+                        </tr>
+                        <tr>
+                            <td>XL</td>
+                            <td>67</td>
+                            <td>45</td>
+                            <td>72</td>
+                        </tr>
+                    </table>
+                    <p>РОСТ МОДЕЛИ 175 СМ,ОН НОСИТ S</p>
+                </div>
+            </div>
+            <div class="order-options">
+                <div class="dimensions">
+                    <h3>РАЗМЕРЫ</h3>
+                    <div class="size-options">
+                        <p>M</p>
+                        <p>L</p>
+                        <p>XL</p>
+                        <p>XXL</p>
+                    </div>
+                </div>
+            </div>
+            <div class="price-block">
+                <h3 class="price"></h3>
+            </div>
+            <button class="addBackpack-button">ДОБАВИТЬ В РЮКЗАК</button>
+        </div>
+    </div>
+</div>
+    <footer>
+        <div class="column">
+            <a href="#">© RCV/2024</a>
+        </div>
+        <div class="column">
+            <a href="#">ПОЛИТИКА ВОЗРАТА СРЕДСТВ</a>
+            <a href="#">ОТПЕЧАТКИ</a>
+            <a href="#">КЛИЕНТЫ</a>
+        </div>
+        <div class="column">
+            <a href="https://vk.com/ashxwhite">VK</a>
+            <a href="https://t.me/ASHXWHITE">TELEGRAM</a>
+            <a href="https://www.behance.net/ashxwhite">BEHENCE</a>
+            <a href="https://github.com/s1njt">GIT</a>
+        </div>
+    </footer>
+    <script src="..//js/main.js"></script>
+    <script src="..//js/searth.js"></script>
+    <script src="..//js/cool.js"></script>
+    <script src="../js/API/authUserKartochkaTovaraAPI.js"></script>
+    <script src="../js/API/authUserAddTovarBackPackAPI.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RCVMobile3.Views.ItemsPage"
+             Title="Регистрация"
+             xmlns:local="clr-namespace:RCVMobile3.ViewModels"  
+             xmlns:model="clr-namespace:RCVMobile3.Models"  
+             x:Name="BrowseItemsPage">
+
+    <ScrollView>
+
+        <Grid Margin="20" BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0">
+                <Label Text="RCV" FontSize="100" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" TextColor="#0A151F" Margin="0" Padding="0"/>
+                <Label Text="Регистрация" TextColor="#0A151F" HorizontalOptions="CenterAndExpand" Margin="0,-20,0,0" FontSize="14" FontAttributes="Bold" Padding="0"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="1" Padding="0" Margin="0,-70,0,0">
+                <Entry x:Name="NameEntry" WidthRequest="350" BackgroundColor="Transparent" Text="ИМЯ" TextColor="Black"/>
+                <Entry x:Name="SurnameEntry" WidthRequest="350" BackgroundColor="Transparent" Text="ФАМИЛИЯ" TextColor="Black"/>
+                <Entry x:Name="NickNameEntry" WidthRequest="350" BackgroundColor="Transparent" Text="НИКНЕЙМ" TextColor="Black"/>
+                <Entry x:Name="EmailEntry" WidthRequest="350" BackgroundColor="Transparent" Text="E-MAIL" TextColor="Black"/>
+                <Entry x:Name="PhoneEntry" WidthRequest="350" BackgroundColor="Transparent" Text="ТЕЛЕФОН" TextColor="Black"/>
+                <Entry x:Name="PasswordEntry" WidthRequest="350" BackgroundColor="Transparent" Text="ПАРОЛЬ" TextColor="Black"/>
+                <Button  WidthRequest="350" HeightRequest="40" x:Name="RegisterButton" Clicked="RegisterButton_Clicked" BackgroundColor="#D9D9D9" TextTransform="Uppercase" Text="ЗАРЕГИСТРИРОВАТЬСЯ" TextColor="Black" BorderWidth="1" BorderColor="Black"/>
+               
+            </StackLayout>
+
+
+
+        </Grid>
+
+    </ScrollView>
+</ContentPage>

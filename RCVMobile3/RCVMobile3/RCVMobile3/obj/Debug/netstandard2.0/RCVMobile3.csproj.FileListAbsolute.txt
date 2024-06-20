@@ -1,0 +1,81 @@
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\bin\Debug\netstandard2.0\RCVMobile3.deps.json
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\bin\Debug\netstandard2.0\RCVMobile3.dll
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\bin\Debug\netstandard2.0\ref\RCVMobile3.dll
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\bin\Debug\netstandard2.0\RCVMobile3.pdb
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.csproj.AssemblyReference.cache
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.AssemblyInfoInputs.cache
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.AssemblyInfo.cs
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.dll
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\refint\RCVMobile3.dll
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.pdb
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\Catalog.xaml.g.cs
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\NovinkiPage.xaml.g.cs
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\TicketPage.xaml.g.cs
+C:\Users\Пользователь\source\repos\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\MakeTicketPage.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.csproj.AssemblyReference.cache
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\Catalog.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\EditProfilePage.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\MakeTicketPage.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\NovinkiPage.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\TicketPage.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.dll
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\refint\RCVMobile3.dll
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.pdb
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\bin\Debug\netstandard2.0\RCVMobile3.deps.json
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\bin\Debug\netstandard2.0\RCVMobile3.dll
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\bin\Debug\netstandard2.0\ref\RCVMobile3.dll
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\bin\Debug\netstandard2.0\RCVMobile3.pdb
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\TicketsPage.xaml.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\CartPage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\bin\Debug\netstandard2.0\RCVMobile3.deps.json
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\bin\Debug\netstandard2.0\RCVMobile3.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\bin\Debug\netstandard2.0\ref\RCVMobile3.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\bin\Debug\netstandard2.0\RCVMobile3.pdb
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.csproj.AssemblyReference.cache
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\CartPage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\Catalog.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\EditProfilePage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\MakeTicketPage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\NovinkiPage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\TicketPage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\Views\TicketsPage.xaml.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.AssemblyInfoInputs.cache
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.AssemblyInfo.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.csproj.CoreCompileInputs.cache
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\refint\RCVMobile3.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVMobile3\RCVMobile3\RCVMobile3\obj\Debug\netstandard2.0\RCVMobile3.pdb

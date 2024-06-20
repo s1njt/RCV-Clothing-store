@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RCVMobile3.Views.LoginPage"
+             Shell.NavBarIsVisible="False"
+             Title="Авторизация">
+    <ScrollView>
+
+        <Grid Margin="20" BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0">
+                <Label Text="RCV" FontSize="100" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" TextColor="#0A151F" Margin="0" Padding="0"/>
+                <Label Text="Авторизация" TextColor="#0A151F" HorizontalOptions="CenterAndExpand" Margin="0,-20,0,0" FontSize="14" FontAttributes="Bold" Padding="0"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="1">
+                <Entry WidthRequest="350" x:Name="EmailEntry" BackgroundColor="Transparent" Placeholder="E-MAIL" TextColor="Black"/>
+                <Entry WidthRequest="350" x:Name="PasswordEntry" IsPassword="True" BackgroundColor="Transparent" Placeholder="ПАРОЛЬ" TextColor="Black"/>
+                <Button WidthRequest="350" HeightRequest="40" BackgroundColor="#D9D9D9" x:Name="AuthButton" Clicked="AuthButton_Clicked" TextTransform="Uppercase" Text="ВОЙТИ" TextColor="Black" BorderWidth="1" BorderColor="Black"/>
+                <Label Text="ЗАБЫЛИ ПАРОЛЬ?" TextColor="#0A151F" HorizontalOptions="StartAndExpand" FontSize="10"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="2">
+                <Label TextColor="#0A151F" Text="НОВЫЙ КЛИЕНТ?" FontSize="25" HorizontalOptions="CenterAndExpand"/>
+                <Label TextColor="#0A151F" Text="Зарегистрируйте учетную запись, чтобы получать от нас эксклюзивные рекламные акции и новости" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+                <Button WidthRequest="350" HeightRequest="40" VerticalOptions="EndAndExpand" x:Name="RegBtn" Clicked="RegBtn_Clicked" BackgroundColor="#D9D9D9" TextTransform="Uppercase" Text="РЕГИСТРАЦИЯ" TextColor="Black" BorderWidth="1" BorderColor="Black"/>
+            </StackLayout>
+
+            
+        </Grid>
+
+    </ScrollView>
+</ContentPage>

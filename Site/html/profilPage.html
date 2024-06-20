@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="..//css/profil.css">
+
+    <link rel="icon" href="../icon/rcvlogo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossoWrigin>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>RCV</title>
+</head>
+<body>
+    <header>
+        <!-- Ссылки слева -->
+        <div class="left-links">
+            <a href="..//html/authUserNovinkiPage.html">НОВИНКИ</a>
+            <a href="#" id="catalog-link">КАТАЛОГ 🡫</a>
+            <a href="..//html/authUserMagazineAdressPage.html" id="offMagazin-link">ОФФ МАГАЗИНЫ</a>
+        </div>
+
+        <!-- Выпадающее меню каталога -->
+        <div class="catalog-form" id="catalog-form">
+            <div class="catalog-block">
+                <h1>ВЕРХ</h1>
+                <ul>
+                    <li><a href="#">ФУТБОЛКИ И ТОПЫ</a></li>
+                    <li><a href="#">РУБАШКИ</a></li>
+                    <li><a href="#">ПУЛОВЕРЫ И СВИТШОТЫ</a></li>
+                    <li><a href="..//html/authUserPalto.html">ПАЛЬТО И КУРТКИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>НИЗ</h1>
+                <ul>
+                    <li><a href="../html/authUserKatalogBrukoDginsiPage.html">БРЮКИ И ДЖИНСЫ</a></li>
+                    <li><a href="#">ПЛАТЬЯ И ЮБКИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>ОБУВЬ</h1>
+                <ul>
+                    <li><a href="#">КРОСОВКИ</a></li>
+                    <li><a href="#">БОТИНКИ</a></li>
+                    <li><a href="#">ТУФЛИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>АКСЫ</h1>
+                <ul>
+                    <li><a href="#">ПОДВЕСКИ</a></li>
+                    <li><a href="#">КОЛЬЦА</a></li>
+                    <li><a href="#">БРАСЛЕТЫ</a></li>
+                    <li><a href="#">ГРИЛЗЫ</a></li>
+                    <li><a href="#">СЕРЬГИ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Логотип-->
+        <a href="..//html/authUserMainPage.html" class="center-title">RCV</a>
+
+        <!--  Ссылки справа -->
+        <div class="right-links">
+            <a href="..//html/sapportPage.html" id="sapport-link">САППОРТ</a>
+            <a href="..//html/profilPage.html" id="profile-link">404</a>
+            <script>
+                // Извлекаем nickname из localStorage
+                const nickname = localStorage.getItem('nickname');
+                document.getElementById('profile-link').innerText = nickname;
+            </script>
+            <a href="#"><img src="..//icon/search.png" alt="ПОИСК" id="search-link"></a>
+            <a href="..//html/backpack.html"><img src="..//icon/backpack.png" alt="РЮКЗАК" id="backpack-link"></a>
+        </div>
+
+        <!-- Поиск по странице -->
+        <div class="search-form" id="search-form">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="ПОИСК ПО САЙТУ">
+                <a href="#" id="send-link">🡪</a>
+            </div>
+            <div class="result">
+                <div id="search-result"></div> <!-- Блок для вывода результата -->
+            </div>
+            <div class="search-results-col">
+                <label>КОЛИЧЕСТВО РЕЗУЛЬТАТОВ: </label>
+                <div id="result-count"></div> <!-- Блок для вывода количества результатов -->
+            </div>
+        </div>
+    </header>
+    <h1 class="zagalovok">ПРОФИЛЬ</h1>
+
+    <!-- Главный контейнер -->
+    <div class="container">
+
+        <!-- Данные о пользователе и предложения -->
+        <div class="user-data-list">
+            <h1 class="userNickname">PEPELNO BELIY</h1>
+            <h2 class="userSmaller">НИЖНИЙ НОВГОРОД</h2>
+            <p class="userEmail">soft1k69@mail.ru</p>
+            <p class="userPhone">+8(952)-67-157-89</p>
+            <button class="edit-button">Редактировать</button>
+            <h2>QR-КОД ДЛЯ ПОЛУЧЕНИЯ ЗАКАЗА</h2>
+
+            
+            <img src="..//icon/qr-code.png" alt="QR Code" class="qr-code" id="qrCode">
+            
+            <script>
+                // НИК НЕЙМ
+                const userNickname = localStorage.getItem('nickname');
+                document.querySelector('.userNickname').innerText = userNickname;
+            
+                // ГОРОД
+                const userCity = localStorage.getItem('city');
+                document.querySelector('.userSmaller').innerText = userCity;
+            
+                // ЭМЕЙЛ
+                const userEmail = localStorage.getItem('userEmail');
+                document.querySelector('.userEmail').innerText = userEmail;
+            
+                // ТЕЛЕФОН
+                const userPhone = localStorage.getItem('phone');
+                document.querySelector('.userPhone').innerText = userPhone;
+            
+                const userId = localStorage.getItem('id');
+                console.log('User ID:', userId);
+            
+                async function fetchAllTickets() {
+                    const response = await fetch(`http://192.168.45.250:3000/api/Tickets/GetTickets?ticket_acceptUserId=${userId}`, {
+                        method: 'GET',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    });
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch tickets');
+                    }
+                    const data = await response.json();
+            
+                    data.forEach(ticket => {
+                        console.log('"ticket_acceptUserId": "', ticket.ticket_acceptUserId, '"');
+                    });
+            
+                    return data;
+                }
+            
+                async function displayAllTickets(tickets) {
+                    const orderDetailsTable = document.querySelector('.order-details tbody');
+                    orderDetailsTable.innerHTML = '';
+                    
+                    let ordersData = "";
+            
+                    tickets.forEach(ticket => {
+                        if (ticket.ticket_acceptUserId === userId) {
+                            const row = document.createElement('tr');
+            
+                            // Column: ФОТО НАЗВАНИЕ
+                            const imageCell = document.createElement('td');
+                            const image = document.createElement('img');
+                            image.src = `../image/novinki/${ticket.ticket_productsId}.png`; 
+                            image.alt = `Товар ${ticket.ticket_productsId}`;
+                            image.onerror = function() {
+                                this.onerror = null;
+                                this.src = '../image/novinki/zagluha.png'; 
+                            };
+                            imageCell.appendChild(image);
+                            row.appendChild(imageCell);
+            
+                            // Column: АРТИКУЛЬ
+                            const articulCell = document.createElement('td');
+                            articulCell.textContent = ticket.ticket_productsId; 
+                            row.appendChild(articulCell);
+            
+                            // Column: СУММА
+                            const sumCell = document.createElement('td');
+                            sumCell.textContent = `₽${ticket.ticket_sum.toFixed(2)}`;
+                            row.appendChild(sumCell);
+            
+                            // Column: ДАТА
+                            const dateCell = document.createElement('td');
+                            dateCell.textContent = new Date(ticket.ticket_createDate).toLocaleDateString();
+                            row.appendChild(dateCell);
+            
+                            // Column: СТАТУС
+                            const statusCell = document.createElement('td');
+                            statusCell.textContent = ticket.ticket_deliveryStatus;
+                            row.appendChild(statusCell);
+            
+                            // Column: АДРЕС ДОСТАВКИ
+                            const addressCell = document.createElement('td');
+                            addressCell.textContent = ticket.ticket_deliveryAdress;
+                            row.appendChild(addressCell);
+            
+                            // Column: ОТОЗВАТЬ ЗАКАЗ
+                            const cancelCell = document.createElement('td');
+                            const cancelButton = document.createElement('button');
+                            cancelButton.textContent = 'ОТОЗВАТЬ';
+                            cancelButton.classList.add('cancel-button');
+                            cancelButton.addEventListener('click', () => {
+                                alert('ТОВАР УСПЕШНО ОТОЗВАН');
+                                row.remove();
+                            });
+                            cancelCell.appendChild(cancelButton);
+                            row.appendChild(cancelCell);
+            
+                            orderDetailsTable.appendChild(row);
+            
+                            // Append order data to QR code data
+                            ordersData += `Товар: ${ticket.ticket_productsId}\n\n Сумма: ₽${ticket.ticket_sum.toFixed(2)}\n\n Дата: ${new Date(ticket.ticket_createDate).toLocaleDateString()}\n\n`;
+                        }
+                    });
+            
+                    // Update QR code with order details
+                    const qrData = `Ник: ${userNickname}\nГород: ${userCity}\nEmail: ${userEmail}\nТелефон: ${userPhone}\n\nЗАКАЗЫ:\n${ordersData}`;
+                    const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=${encodeURIComponent(qrData)}&bgcolor=E1E1E1`;
+                    const qrCodeImg = document.getElementById('qrCode');
+                    qrCodeImg.src = qrUrl;
+            
+                    addSubmitButtonClickListener();
+                }
+            
+                function addSubmitButtonClickListener() {
+                    const buttons = document.querySelectorAll('.submit-button');
+                    buttons.forEach(button => {
+                        button.addEventListener('click', (event) => {
+                            const productData = event.currentTarget.getAttribute('data-product');
+                            localStorage.setItem('selectedProduct', productData);
+                        });
+                    });
+                }
+            
+                async function fetchAndDisplayTickets() {
+                    try {
+                        const tickets = await fetchAllTickets();
+                        await displayAllTickets(tickets);
+                    } catch (error) {
+                        console.error('Error loading tickets:', error);
+                    }
+                }
+            
+                fetchAndDisplayTickets();
+            </script>
+
+
+
+            <p class="description">ПОДПИШИТЕСЬ НА РАННИЙ ДОСТУП К НОВЫМ ВЫПУСКАМИ СЭКОНОМЬТЕ 10% НА СВОЕМ ПЕРВОМ ЗАКАЗЕ.</p>
+            <div class="mail-input">
+                <input type="text" placeholder="E-MAIL">
+            </div>
+            <button class="subscribe-button">ПОДПИСАТЬСЯ</button>
+        </div>
+
+        <!-- Контейнер для вывода данных -->
+        <div class="main-content">
+
+            <!-- Поиск по заказам -->
+            <div class="message-input">
+                <input type="text" placeholder="ПОИСК ПО ЗАКАЗАМ">
+                <a href="#" class="send-button">🡢</a>
+            </div>
+
+            <!-- Иформация о заказах -->
+            <div class="order-details">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ФОТО НАЗВАНИЕ</th>
+                            <th>АРТИКУЛЬ</th>
+                            <th>СУММА</th>
+                            <th>ДАТА</th>
+                            <th>СТАТУС</th>
+                            <th>АДРЕС ДОСТАВКИ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="..//image/novinki/dgins.png" alt="Товар 1"></td>
+                            <td>ДЖРСВ24Г</td>
+                            <td>₽1900.00</td>
+                            <td>2024-02-24</td>
+                            <td>ОПЛАЧЕН</td>
+                            <td>НИЖНИЙ НОВГОРОД, ДОМ 14,УЛ.КАЛАТУШКИНА, ПАДИК 4,КВ.1</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Взаимодействие с заказом -->
+                <div class="buttons">
+                    <button class="cancel-button">ОТОЗВАТЬ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="column">
+            <a href="#">© RCV/2024</a>
+        </div>
+        <div class="column">
+            <a href="#">ПОЛИТИКА ВОЗРАТА СРЕДСТВ</a>
+            <a href="#">ОТПЕЧАТКИ</a>
+            <a href="#">КЛИЕНТЫ</a>
+        </div>
+        <div class="column">
+            <a href="https://vk.com/ashxwhite">VK</a>
+            <a href="https://t.me/ASHXWHITE">TELEGRAM</a>
+            <a href="https://www.behance.net/ashxwhite">BEHENCE</a>
+            <a href="https://github.com/s1njt">GIT</a>
+        </div>
+    </footer>
+    <script src="..//js/main.js"></script>
+    <script src="..//js/searth.js"></script>
+    <script src="..//js/API/profilAPI.js"></script>
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="..//css/katalog.css">
+
+    <link rel="icon" href="../icon/rcvlogo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossoWrigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>RCV</title>
+</head>
+<body>
+    <header>
+
+        <!-- Ссылки слева -->
+        <div class="left-links">
+            <a href="..//html/novinkiPage.html">НОВИНКИ</a>
+            <a href="#" id="catalog-link">КАТАЛОГ 🡫</a>
+            <a href="..//html/magazineAdressPage.html" id="offMagazin-link">ОФФ МАГАЗИНЫ</a>
+        </div>
+
+        <!-- Выпадающее меню каталога -->
+        <div class="catalog-form" id="catalog-form">
+            <div class="catalog-block">
+                <h1>ВЕРХ</h1>
+                <ul>
+                    <li><a href="#">ФУТБОЛКИ И ТОПЫ</a></li>
+                    <li><a href="#">РУБАШКИ</a></li>
+                    <li><a href="#">ПУЛОВЕРЫ И СВИТШОТЫ</a></li>
+                    <li><a href="..//html/katalogPalto.html">ПАЛЬТО И КУРТКИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>НИЗ</h1>
+                <ul>
+                    <li><a href="..//html/katalogBrukoDginsiPage.html">БРЮКИ И ДЖИНСЫ</a></li>
+                    <li><a href="#">ПЛАТЬЯ И ЮБКИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>ОБУВЬ</h1>
+                <ul>
+                    <li><a href="#">КРОСОВКИ</a></li>
+                    <li><a href="#">БОТИНКИ</a></li>
+                    <li><a href="#">ТУФЛИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>АКСЫ</h1>
+                <ul>
+                    <li><a href="#">ПОДВЕСКИ</a></li>
+                    <li><a href="#">КОЛЬЦА</a></li>
+                    <li><a href="#">БРАСЛЕТЫ</a></li>
+                    <li><a href="#">ГРИЛЗЫ</a></li>
+                    <li><a href="#">СЕРЬГИ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Логотип-->
+        <a href="../index.html" class="center-title">RCV</a>
+
+        <!--  Ссылки справа -->
+        <div class="right-links">
+            <a href="" id="login-link">АВТОРИЗАЦИЯ</a>
+            <a href="#"><img src="..//icon/search.png" alt="ПОИСК" id="search-link"></a>
+        </div>
+
+        <!-- Подложка для формы входа/регистрации-->
+        <div class="overlay" id="overlay"></div>
+        <div class="login-form" id="login-form">
+            <h2>RCV</h2>
+            <p>АВТОРИЗАЦИЯ</p>
+            <form id="login-form">
+                <div>
+                    <input type="text" id="email-input" placeholder="EMAIL">
+                </div>
+                <div>
+                    <input type="password" id="password-input" placeholder="ПАРОЛЬ">
+                </div>
+                <button type="button" onclick="authorizeUser('../html/authUserMainPage.html')">АВТОРИЗОВАТЬСЯ</button>
+            </form>
+            <h1>НОВЫЙ КЛИЕНТ ?</h1>
+            <p>Зарегистрируйте учетную запись, чтобы получать от нас эксклюзивные рекламные акции и новости</p>
+            <button type="button" id="registration-button">ЗАРЕГИСТРОВАТЬСЯ</button>
+        </div>
+        <div class="registration-form" id="registration-form" style="display: none;">
+            <h2>RCV</h2>
+            <p>РЕГИСТРАЦИЯ</p>
+            <form id="registration-form">
+                <div>
+                    <input type="text" id="registration-name-input" placeholder="ИМЯ">
+                </div>
+                <div>
+                    <input type="text" id="registration-surname-input" placeholder="ФАМИЛИЯ">
+                </div>
+                <div>
+                    <input type="text" id="registration-nick-input" placeholder="НИКНЕЙМ">
+                </div>
+                <div>
+                    <input type="text" id="registration-email-input" placeholder="EMAIL">
+                </div>
+                <div>
+                    <input type="text" id="registration-phone-input" placeholder="ТЕЛЕФОН">
+                </div>
+                <div>
+                    <input type="password" id="registration-password-input" placeholder="ПАРОЛЬ">
+                </div>
+                <div>
+                    <input type="text" id="registration-city-input" placeholder="ГОРОД">
+                </div>
+                <button type="button" onclick="registerUser('../index.html')">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+            </form>
+        </div>
+
+        <!-- Поиск по странице -->
+        <div class="search-form" id="search-form">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="ПОИСК ПО САЙТУ">
+                <a href="#" id="send-link">🡪</a>
+            </div>
+            <div class="result">
+                <div id="search-result"></div> <!-- Блок для вывода результата -->
+            </div>
+            <div class="search-results-col">
+                <label>КОЛИЧЕСТВО РЕЗУЛЬТАТОВ: </label>
+                <div id="result-count"></div> <!-- Блок для вывода количества результатов -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Контейнера для загаловка и фильтра-->
+    <div class="header-container">
+        <h1 class="zagalovok">ПАЛЬТО И КУРТКИ</h1>
+        <a href="#" id="filter-link">ФИЛЬТР +</a>
+    </div>
+    
+    <!-- ФИЛЬТЕР-->
+    <div id="filter-form" class="hidden">
+        <h2>ФИЛЬТЕР</h2>
+        <h3>Цвет</h3>
+        <table class="color-table">
+            <colgroup>
+                <col style="width: 30px;"> <!-- Ширина первого столбца -->
+                <col style="width: 150px;"> <!-- Ширина второго столбца -->
+                <col style="width: 150px;"> <!-- Ширина третьего столбца -->
+                <col style="width: 30px;"> <!-- Ширина четвертого столбца -->
+            </colgroup>
+            <tr>
+                <td class="color-cell"><div class="color-box black"></div></td>
+                <td>ЧЕРНЫЙ</td>
+                <td>БЕЖЕВЫЙ</td>
+                <td class="color-cell"><div class="color-box beige"></div></td>
+            </tr>
+            <tr>
+                <td class="color-cell"><div class="color-box white"></div></td>
+                <td>БЕЛЫЙ</td>
+                <td>КОРИЧНЕВЫЙ</td>
+                <td class="color-cell"><div class="color-box brown"></div></td>
+            </tr>
+            <tr>
+                <td class="color-cell"><div class="color-box gray"></div></td>
+                <td>СЕРЫЙ</td>
+                <td>РОЗОВЫЙ</td>
+                <td class="color-cell"><div class="color-box pink"></div></td>
+            </tr>
+        </table>
+        <!-- Выбор размера-->
+        <div class="dimensions">
+            <h3>РАЗМЕРЫ</h3>
+            <div class="size-options-filter">
+                <p class="size-option">XS</p>
+                <p class="size-option">S</p>
+                <p class="size-option">M</p>
+                <p class="size-option">L</p>
+                <p class="size-option">XL</p>
+                <p class="size-option">XXL</p>
+            </div>
+        </div>
+        <!-- Диапазон цены -->
+        <div class="price-inputs">
+            <h3>ЦЕНА</h3>
+            <div class="price-options">
+                <input type="number" placeholder="ОТ" id="price-min">
+                <input type="number" placeholder="ДО" id="price-max">
+            </div>
+        </div>
+        <!-- Блок с кнопками фильтра -->
+        <div class="button-container">
+            <button class="apply-button">ПРИМЕНИТЬ</button>
+            <button class="clear-button">ОЧИСТИТЬ ФИЛЬТРЫ</button>
+        </div>
+    </div>
+
+    <!-- Основной контейнер -->
+    <div class="main-content">
+    
+    </div>
+
+    
+    <footer>
+        <div class="column">
+            <a href="#">© RCV/2024</a>
+        </div>
+        <div class="column">
+            <a href="#">ПОЛИТИКА ВОЗРАТА СРЕДСТВ</a>
+            <a href="#">ОТПЕЧАТКИ</a>
+            <a href="#">КЛИЕНТЫ</a>
+        </div>
+        <div class="column">
+            <a href="https://vk.com/ashxwhite">VK</a>
+            <a href="https://t.me/ASHXWHITE">TELEGRAM</a>
+            <a href="https://www.behance.net/ashxwhite">BEHENCE</a>
+            <a href="https://github.com/s1njt">GIT</a>
+        </div>
+    </footer>
+    <script src="..//js/main.js"></script>
+    <script src="../js/searth.js"></script>
+    <script src="../js/filter.js"></script>
+    <script src="../js/API/authRegAPI.js"></script>
+    <script src="../js/API/tovarPalto.js"></script>
+</body>
+</html>

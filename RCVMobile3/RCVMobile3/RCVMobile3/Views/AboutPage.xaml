@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RCVMobile3.Views.AboutPage"
+             xmlns:vm="clr-namespace:RCVMobile3.ViewModels"
+             Title="Авториззация">
+    
+    
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ScrollView >
+        <Grid Margin="20" BackgroundColor="White">
+        
+            <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Vertical" WidthRequest="320">
+                    <Frame BorderColor="Black" Margin="0" Padding="1" WidthRequest="350">
+                        <StackLayout>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <ImageButton Source="burger.png" Grid.Column="0" x:Name="MenuBtn" Clicked="MenuBtn_Clicked" HeightRequest="40" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                <Label Text="RCV" TextColor="#0A151F" FontSize="30"  FontAttributes ="Bold" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                                <Button BackgroundColor="Transparent" TextColor="Black" x:Name="LoginBtn" Clicked="LoginBtn_Clicked" Text="Войти" Grid.Column="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                            </Grid>
+                            <Image Source="darkchelmw.png"/>
+                            
+                        </StackLayout>
+                    
+                    </Frame>
+                    <Label TextColor="Black" x:Name="testl" FlowDirection="LeftToRight" WidthRequest="350"/>
+                    <Button WidthRequest="300" BackgroundColor="Transparent" Text="ПОДРОБНЕЕ" TextColor="Black" FontAttributes="Italic" BorderWidth="1" BorderColor="Black"/>
+                </StackLayout>
+            </StackLayout>
+            
+
+        </Grid>
+        
+    </ScrollView>
+
+</ContentPage>

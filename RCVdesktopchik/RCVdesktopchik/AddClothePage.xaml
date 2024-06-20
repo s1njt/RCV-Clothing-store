@@ -1,0 +1,51 @@
+﻿<Window x:Class="RCVdesktopchik.AddClothePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RCVdesktopchik"
+        mc:Ignorable="d"
+        Title="AddClothePage" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="393*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="RCV" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" FontWeight="Bold" />
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            
+            <TextBlock Text="{Binding user_name}" Width="75" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Button Content="ВЫХОД" Width="75" x:Name="ExitBtn" Click="ExitBtn_Click"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" >
+            <StackPanel>
+                <TextBox Text="НАИМЕНОВАНИЕ ТОВАРА" FontSize="30" x:Name="NameTB" Margin="50,0,50,0"/>
+                <Border Height="2" Background="Black" Margin="50,0,50,0"/>
+            </StackPanel>
+            <StackPanel Margin="0,20,0,0">
+                <TextBox Text="ЦЕНА" x:Name="PriceTB" FontSize="30" Margin="50,0,50,0"/>
+                <Border Height="2" Background="Black" Margin="50,0,50,0"/>
+            </StackPanel>
+            <StackPanel Margin="0,20,0,0">
+                <TextBox Text="РАЗМЕР" FontSize="30" x:Name="SizeTB" Margin="50,0,50,0"/>
+                <Border Height="2" Background="Black" Margin="50,0,50,0"/>
+            </StackPanel>
+            <StackPanel Margin="0,20,0,0">
+                <TextBox Text="ФОТОГРАФИЯ" x:Name="PhotoTB" FontSize="30" Margin="50,0,50,0"/>
+                <Border Height="2" Background="Black" Margin="50,0,50,0"/>
+            </StackPanel>
+            <StackPanel Margin="0,20,0,0">
+                <TextBox Text="ОПИСАНИЕ" FontSize="30" x:Name="DescriptionTB" Margin="50,0,50,0"/>
+                <Border Height="2" Background="Black" Margin="50,0,50,0"/>
+            </StackPanel>
+            <StackPanel Margin="0,20,0,0">
+                <TextBox Text="ТИП" x:Name="TypeTB" FontSize="30" Margin="50,0,50,0"/>
+                <Border Height="2" Background="Black" Margin="50,0,50,0"/>
+            </StackPanel>
+            <Button Height="130" Margin="50,20,50,0" Click="AddClothe_Click" x:Name="AddClothe" Content="+" FontSize="100" FontWeight="ExtraLight"/>
+        </StackPanel>
+    </Grid>
+</Window>

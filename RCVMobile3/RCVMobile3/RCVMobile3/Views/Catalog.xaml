@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RCVMobile3.Views.Catalog">
+    <ScrollView>
+        <Grid Margin="20">
+            <StackLayout>
+                <Button WidthRequest="350" x:Name="NovinkiButton" Clicked="NovinkiButton_Clicked" HeightRequest="40" BackgroundColor="#D9D9D9" TextTransform="Uppercase" Text="НОВИНКИ" TextColor="Black" BorderWidth="1" BorderColor="Black"/>
+                <Button WidthRequest="350" x:Name="CatalogMenuBtn" Clicked="CatalogMenuBtn_Clicked" HeightRequest="40" BackgroundColor="#D9D9D9" TextTransform="Uppercase" Text="КАТАЛОГ" TextColor="Black" BorderWidth="1" BorderColor="Black"/>
+                <Button WidthRequest="350"  x:Name="ProfileBtn" Clicked="ProfileBtn_Clicked" HeightRequest="40"  BackgroundColor="#D9D9D9" TextTransform="Uppercase" Text="ПРОФИЛЬ" TextColor="Black" BorderWidth="1" BorderColor="Black"/>
+                
+                <StackLayout IsVisible="False" x:Name="CatalogMenuSL" Opacity="0">
+                    <StackLayout >
+                        <Label Text="ВЕРХ" FontSize="25" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" ФУТБОЛКИ И ТОПЫ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" РУБАШКИ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" ПУЛЛОВЕРЫ И СВИТШОТЫ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" ПАЛЬТО И КУРТКИ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Label Text="НИЗ" FontSize="25" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" БРЮКИ И ДЖИНСЫ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" ПЛАТЬЯ И ЮБКИ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="ОБУВЬ" FontSize="25" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" КРОССОВКИ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" БОТИНКИ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" ТУФЛИ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="ОБУВЬ" FontSize="25" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" ПОДВЕСКИ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" КОЛЬЦА" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" БРАСЛЕТЫ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" ГРИЛЗЫ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                        <Button WidthRequest="350" Text=" СЕРЬГИ" HeightRequest="40" BackgroundColor="Transparent" TextColor="Black"/>
+                        
+                        
+                    </StackLayout>
+                    
+                </StackLayout>
+                
+                
+            </StackLayout>
+            
+            <Button WidthRequest="350" HeightRequest="40" x:Name="AuhClickBtn" Clicked="AuhClickBtn_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand"  BackgroundColor="#D9D9D9" TextTransform="Uppercase" Text="АВТОРИЗАЦИЯ" TextColor="Black" BorderWidth="1" BorderColor="Black"/>
+        </Grid>
+        
+    </ScrollView>
+</ContentPage>

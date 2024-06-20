@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\soft1\\OneDrive\\Рабочий стол\\Диплом\\RCVMobile3\\RCVMobile3\\RCVMobile3.Android\\RCVMobile3.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\soft1\\OneDrive\\Рабочий стол\\Диплом\\RCVMobile3\\RCVMobile3\\RCVMobile3.Android\\RCVMobile3.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\soft1\\OneDrive\\Рабочий стол\\Диплом\\RCVMobile3\\RCVMobile3\\RCVMobile3.Android\\RCVMobile3.Android.csproj",
+        "projectName": "RCVMobile3.Android",
+        "projectPath": "C:\\Users\\soft1\\OneDrive\\Рабочий стол\\Диплом\\RCVMobile3\\RCVMobile3\\RCVMobile3.Android\\RCVMobile3.Android.csproj",
+        "packagesPath": "C:\\Users\\soft1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\soft1\\OneDrive\\Рабочий стол\\Диплом\\RCVMobile3\\RCVMobile3\\RCVMobile3.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\soft1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid13.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid13.0": {
+            "projectReferences": {
+              "C:\\Users\\soft1\\OneDrive\\Рабочий стол\\Диплом\\RCVMobile3\\RCVMobile3\\RCVMobile3\\RCVMobile3.csproj": {
+                "projectPath": "C:\\Users\\soft1\\OneDrive\\Рабочий стол\\Диплом\\RCVMobile3\\RCVMobile3\\RCVMobile3\\RCVMobile3.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\soft1\\OneDrive\\Рабочий стол\\Диплом\\RCVMobile3\\RCVMobile3\\RCVMobile3\\RCVMobile3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\soft1\\OneDrive\\Рабочий стол\\Диплом\\RCVMobile3\\RCVMobile3\\RCVMobile3\\RCVMobile3.csproj",
+        "projectName": "RCVMobile3",
+        "projectPath": "C:\\Users\\soft1\\OneDrive\\Рабочий стол\\Диплом\\RCVMobile3\\RCVMobile3\\RCVMobile3\\RCVMobile3.csproj",
+        "packagesPath": "C:\\Users\\soft1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\soft1\\OneDrive\\Рабочий стол\\Диплом\\RCVMobile3\\RCVMobile3\\RCVMobile3\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\soft1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

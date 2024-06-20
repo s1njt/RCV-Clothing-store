@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор QR-кода</title>
+</head>
+<body>
+    <h1>Генератор QR-кода</h1>
+    <img id="qr-code" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example" alt="QR Code">
+
+    <script>
+        // Обновляем QR-код, если данные изменены
+        function updateQRCode() {
+            var data = document.getElementById('data').value;
+            var size = document.getElementById('size').value;
+            var qrCode = document.getElementById('qr-code');
+            qrCode.src = `https://api.qrserver.com/v1/create-qr-code/?size=${size}x${size}&data=${encodeURIComponent(data)}`;
+        }
+
+        // Добавляем событие изменения при вводе новых данных
+        document.getElementById('data').addEventListener('input', updateQRCode);
+        document.getElementById('size').addEventListener('change', updateQRCode);
+
+        // Инициализация QR-кода
+        updateQRCode();
+    </script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.exe
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.deps.json
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.runtimeconfig.json
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.dll
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.pdb
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.csproj.AssemblyReference.cache
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AdminMainPage.g.cs
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik_MarkupCompile.cache
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik_MarkupCompile.lref
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\App.baml
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AdminMainPage.baml
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.g.resources
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.AssemblyInfoInputs.cache
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.AssemblyInfo.cs
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.csproj.CopyComplete
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.dll
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\refint\RCVdesktopchik.dll
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.pdb
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.genruntimeconfig.cache
+C:\Users\Пользователь\source\repos\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\ref\RCVdesktopchik.dll
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.csproj.AssemblyReference.cache
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AddClothePage.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AdminMainPage.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik_MarkupCompile.cache
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik_MarkupCompile.lref
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.dll
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\refint\RCVdesktopchik.dll
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.pdb
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.exe
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.deps.json
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.runtimeconfig.json
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.dll
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.pdb
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\App.baml
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AddClothePage.baml
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AdminMainPage.baml
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.g.resources
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.AssemblyInfoInputs.cache
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.AssemblyInfo.cs
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.csproj.CoreCompileInputs.cache
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.csproj.CopyComplete
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.genruntimeconfig.cache
+C:\Users\soft1\OneDrive\Рабочий стол\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\ref\RCVdesktopchik.dll
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.exe
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.deps.json
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.runtimeconfig.json
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.dll
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.pdb
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.csproj.AssemblyReference.cache
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AddClothePage.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AdminMainPage.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik_MarkupCompile.cache
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik_MarkupCompile.lref
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\App.baml
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AddClothePage.baml
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AdminMainPage.baml
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.g.resources
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.csproj.CopyComplete
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.dll
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\refint\RCVdesktopchik.dll
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.pdb
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.genruntimeconfig.cache
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\ref\RCVdesktopchik.dll
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\ClosedXML.dll
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\Irony.dll
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+C:\Users\Пользователь\Desktop\diplom\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\XLParser.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.exe
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.deps.json
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.runtimeconfig.json
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\RCVdesktopchik.pdb
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\ClosedXML.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\Irony.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\bin\Debug\net6.0-windows\XLParser.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.csproj.AssemblyReference.cache
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AddClothePage.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AdminMainPage.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik_MarkupCompile.cache
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik_MarkupCompile.lref
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\App.baml
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AddClothePage.baml
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\AdminMainPage.baml
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.g.resources
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.AssemblyInfoInputs.cache
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.AssemblyInfo.cs
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.csproj.CoreCompileInputs.cache
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.csproj.CopyComplete
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\refint\RCVdesktopchik.dll
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.pdb
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\RCVdesktopchik.genruntimeconfig.cache
+C:\Users\soft1\OneDrive\Рабочий стол\Диплом\RCVdesktopchik\RCVdesktopchik\obj\Debug\net6.0-windows\ref\RCVdesktopchik.dll

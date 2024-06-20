@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RCVAPI4.props" />
+</Project>

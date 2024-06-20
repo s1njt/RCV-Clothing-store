@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="..//css/magazine.css">
+
+    <link rel="icon" href="../icon/rcvlogo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossoWrigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>RCV</title>
+</head>
+<body>
+    <header>
+        <!-- Ссылки слева -->
+        <div class="left-links">
+            <a href="..//html/novinkiPage.html">НОВИНКИ</a>
+            <a href="#" id="catalog-link">КАТАЛОГ 🡫</a>
+            <a href="..//html/magazineAdressPage.html" id="offMagazin-link">ОФФ МАГАЗИНЫ</a>
+        </div>
+
+        <!-- Выпадающее меню каталога -->
+        <div class="catalog-form" id="catalog-form">
+            <div class="catalog-block">
+                <h1>ВЕРХ</h1>
+                <ul>
+                    <li><a href="#">ФУТБОЛКИ И ТОПЫ</a></li>
+                    <li><a href="#">РУБАШКИ</a></li>
+                    <li><a href="#">ПУЛОВЕРЫ И СВИТШОТЫ</a></li>
+                    <li><a href="..//html/katalogPalto.html">ПАЛЬТО И КУРТКИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>НИЗ</h1>
+                <ul>
+                    <li><a href="..//html/katalogBrukoDginsiPage.html">БРЮКИ И ДЖИНСЫ</a></li>
+                    <li><a href="#">ПЛАТЬЯ И ЮБКИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>ОБУВЬ</h1>
+                <ul>
+                    <li><a href="#">КРОСОВКИ</a></li>
+                    <li><a href="#">БОТИНКИ</a></li>
+                    <li><a href="#">ТУФЛИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>АКСЫ</h1>
+                <ul>
+                    <li><a href="#">ПОДВЕСКИ</a></li>
+                    <li><a href="#">КОЛЬЦА</a></li>
+                    <li><a href="#">БРАСЛЕТЫ</a></li>
+                    <li><a href="#">ГРИЛЗЫ</a></li>
+                    <li><a href="#">СЕРЬГИ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Логотип-->
+        <a href="../index.html" class="center-title">RCV</a>
+
+        <!--  Ссылки справа -->
+        <div class="right-links">
+            <a href="" id="login-link">АВТОРИЗАЦИЯ</a>
+            <a href="#"><img src="..//icon/search.png" alt="ПОИСК" id="search-link"></a>
+        </div>
+
+        <!-- Подложка для формы входа/регистрации-->
+        <div class="overlay" id="overlay"></div>
+        <div class="login-form" id="login-form">
+            <h2>RCV</h2>
+            <p>АВТОРИЗАЦИЯ</p>
+            <form id="login-form">
+                <div>
+                    <input type="text" id="email-input" placeholder="EMAIL">
+                </div>
+                <div>
+                    <input type="password" id="password-input" placeholder="ПАРОЛЬ">
+                </div>
+                <button type="button" onclick="authorizeUser('../html/authUserMainPage.html')">АВТОРИЗОВАТЬСЯ</button>
+            </form>
+            <h1>НОВЫЙ КЛИЕНТ ?</h1>
+            <p>Зарегистрируйте учетную запись, чтобы получать от нас эксклюзивные рекламные акции и новости</p>
+            <button type="button" id="registration-button">ЗАРЕГИСТРОВАТЬСЯ</button>
+        </div>
+        <div class="registration-form" id="registration-form" style="display: none;">
+            <h2>RCV</h2>
+            <p>РЕГИСТРАЦИЯ</p>
+            <form id="registration-form">
+                <div>
+                    <input type="text" id="registration-name-input" placeholder="ИМЯ">
+                </div>
+                <div>
+                    <input type="text" id="registration-surname-input" placeholder="ФАМИЛИЯ">
+                </div>
+                <div>
+                    <input type="text" id="registration-nick-input" placeholder="НИКНЕЙМ">
+                </div>
+                <div>
+                    <input type="text" id="registration-email-input" placeholder="EMAIL">
+                </div>
+                <div>
+                    <input type="text" id="registration-phone-input" placeholder="ТЕЛЕФОН">
+                </div>
+                <div>
+                    <input type="password" id="registration-password-input" placeholder="ПАРОЛЬ">
+                </div>
+                <div>
+                    <input type="text" id="registration-city-input" placeholder="ГОРОД">
+                </div>
+                <button type="button" onclick="registerUser('../index.html')">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+            </form>
+        </div>
+
+        <!-- Поиск по странице -->
+        <div class="search-form" id="search-form">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="ПОИСК ПО САЙТУ">
+                <a href="#" id="send-link">🡪</a>
+            </div>
+            <div class="result">
+                <div id="search-result"></div> <!-- Блок для вывода результата -->
+            </div>
+            <div class="search-results-col">
+                <label>КОЛИЧЕСТВО РЕЗУЛЬТАТОВ: </label>
+                <div id="result-count"></div> <!-- Блок для вывода количества результатов -->
+            </div>
+        </div>
+    </header>
+    <h1 class="zagalovok">ОФФ МАГАЗИНЫ</h1>
+
+    <!-- Основной контейнер -->
+    <div class="container">
+
+        <!-- Список Городов -->
+        <div class="gorod-list">
+            <div class="message-input">
+                <input type="text" placeholder="ГОРОД">
+                <a href="#" class="send-button">🡢</a>
+            </div>
+            <a href="#" class="gorod" data-city="Нижний Новгород">НИЖНИЙ НОВОГОРОД</a>
+            <a href="#" class="gorod" data-city="Москва">МОСКВА</a>
+            <a href="#" class="gorod" data-city="Санкт-Петербург">СПБ</a>
+        </div>
+
+        <!-- Контейнер для вывода адресов -->
+        <div class="main-content">
+            <div class="address-block"></div>
+            <div class="working-hours">
+                <h2>Время работы</h2>
+                <ul>
+                    <li>Понедельник: 9:00 - 18:00</li>
+                    <li>Вторник: 9:00 - 18:00</li>
+                    <li>Среда: 9:00 - 18:00</li>
+                    <li>Четверг: 9:00 - 18:00</li>
+                    <li>Пятница: 9:00 - 18:00</li>
+                    <li>Суббота: 10:00 - 16:00</li>
+                    <li>Воскресенье: Выходной</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="map" style="width: 100%; height: 400px;"></div>
+            <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+            <script type="text/javascript">
+                ymaps.ready(init);
+
+                function init() {
+                var myMap = new ymaps.Map("map", {
+                    center: [56.32, 44.0], // Координаты центра карты (Нижний Новгород)
+                    zoom: 13 // Масштаб карты
+                });
+
+                // Создаем массивы с координатами магазинов RCV для каждого города
+                var rcvShopsNN = [
+                    { coords: [56.328429, 44.003938], title: 'Магазин RCV на ул. Большая Покровская, 13' },
+                    { coords: [56.319194, 44.005899], title: 'Магазин RCV на пр. Гагарина, 92' },
+                    { coords: [56.317744, 43.999553], title: 'Магазин RCV на ул. Варварская, 19' }
+                    // Добавьте сюда координаты и названия других магазинов RCV в Нижнем Новгороде
+                ];
+
+                var rcvShopsMoscow = [
+                    { coords: [55.755814, 37.617635], title: 'Магазин RCV на Тверской улице, 6' },
+                    { coords: [55.734872, 37.593040], title: 'Магазин RCV на Пресненской набережной, 10' },
+                    { coords: [55.757027, 37.624721], title: 'Магазин RCV на Новинском бульваре, 12' }
+                    // Добавьте сюда координаты и названия других магазинов RCV в Москве
+                ];
+
+                var rcvShopsSPb = [
+                    { coords: [59.935141, 30.325005], title: 'Магазин RCV на Невском проспекте, 30' },
+                    { coords: [59.944165, 30.353696], title: 'Магазин RCV на ул. Большая Конюшенная, 19' },
+                    { coords: [59.927633, 30.317785], title: 'Магазин RCV на Малой Конюшенной улице, 10' }
+                    // Добавьте сюда координаты и названия других магазинов RCV в Санкт-Петербурге
+                ];
+
+                // Функция для добавления маркеров на карту
+                function addPlacemarks(shops) {
+                    shops.forEach(function(shop) {
+                        var placemark = new ymaps.Placemark(shop.coords, {
+                            hintContent: shop.title,
+                            balloonContent: shop.title
+                        });
+                        myMap.geoObjects.add(placemark);
+                    });
+                }
+
+                // Вызываем функцию для добавления маркеров при загрузке карты
+                addPlacemarks(rcvShopsNN); // По умолчанию для Нижнего Новгорода
+
+                // Функция для установки новых координат в зависимости от выбранного города
+                function setCity(city) {
+                    myMap.geoObjects.removeAll(); // Удаляем все маркеры с карты
+
+                    switch (city) {
+                        case 'Нижний Новгород':
+                            myMap.setCenter([56.32, 44.0]); // Координаты Нижнего Новгорода
+                            myMap.setZoom(13); // Установка масштаба карты
+                            addPlacemarks(rcvShopsNN);
+                            break;
+                        case 'Москва':
+                            myMap.setCenter([55.76, 37.64]); // Координаты Москвы
+                            myMap.setZoom(13); // Установка масштаба карты
+                            addPlacemarks(rcvShopsMoscow);
+                            break;
+                        case 'Санкт-Петербург':
+                            myMap.setCenter([59.94, 30.32]); // Координаты Санкт-Петербурга
+                            myMap.setZoom(13); // Установка масштаба карты
+                            addPlacemarks(rcvShopsSPb);
+                            break;
+                        default:
+                            myMap.setCenter([56.32, 44.0]); // По умолчанию Нижний Новгород
+                            myMap.setZoom(13); // Установка масштаба карты
+                            addPlacemarks(rcvShopsNN);
+                            break;
+                    }
+                }
+
+                // Добавляем обработчики клика на кнопки городов
+                var gorodLinks = document.querySelectorAll('.gorod');
+                gorodLinks.forEach(function(link) {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        var city = this.getAttribute('data-city');
+                        setCity(city);
+                    });
+                });
+
+            }
+            </script>
+    </div>
+    <footer>
+        <div class="column">
+            <a href="#">© RCV/2024</a>
+        </div>
+        <div class="column">
+            <a href="#">ПОЛИТИКА ВОЗРАТА СРЕДСТВ</a>
+            <a href="#">ОТПЕЧАТКИ</a>
+            <a href="#">КЛИЕНТЫ</a>
+        </div>
+        <div class="column">
+            <a href="https://vk.com/ashxwhite">VK</a>
+            <a href="https://t.me/ASHXWHITE">TELEGRAM</a>
+            <a href="https://www.behance.net/ashxwhite">BEHENCE</a>
+            <a href="https://github.com/s1njt">GIT</a>
+        </div>
+    </footer>
+    <script src="..//js/main.js"></script>
+    <script src="../js/searth.js"></script>
+    <script src="../js/adress.js"></script>
+    <script src="../js/API/authRegAPI.js"></script>
+</body>
+</html>

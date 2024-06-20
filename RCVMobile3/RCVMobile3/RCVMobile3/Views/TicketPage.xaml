@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RCVMobile3.Views.TicketPage">
+    <ContentPage.Content>
+        
+        <ScrollView>
+            <Grid Margin="20" BackgroundColor="White">
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Vertical" WidthRequest="320">
+                        <Frame BorderColor="Black" Margin="0" Padding="1" WidthRequest="350">
+                            <StackLayout>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <ImageButton Source="burger.png" Grid.Column="0" x:Name="MenuBtn" HeightRequest="40" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                    <Label Text="RCV" TextColor="#0A151F" FontSize="30"  FontAttributes ="Bold" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                                    <Button BackgroundColor="Transparent" TextColor="Black" x:Name="LoginBtn"  Text="Войти" Grid.Column="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+
+                                </Grid>
+
+                                <StackLayout >
+                                    <Image Source="{Binding clothe_image}"/>
+                                    <Label Padding="5,0,0,0"  Text="{Binding clothe_name}" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+                                    <Label Padding="5,0,0,0" Text="{Binding clothe_description}" Margin="0,0,0,15"/>
+                                    <Label Padding="5,0,0,0" Text="ТЕКСТИЛЬ" FontAttributes="Bold"/>
+                                    <Label Padding="5,0,0,0" Text="{Binding clothe_textile}" Margin="0,0,0,15"/>
+                                    <Label Padding="5,0,0,0" Text="ЦВЕТ" FontAttributes="Bold"/>
+                                    <Label Padding="5,0,0,0" Text="{Binding clothe_color}" Margin="0,0,0,15"/>
+                                    <Label Padding="5,0,0,0" Text="АРТИКУЛ" FontAttributes="Bold"/>
+                                    <Label Padding="5,0,0,0" Text="{Binding Id}" x:Name="AricleL">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="OnLabelTapped" />
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                    <Label Padding="5,0,0,0" Text="{Binding clothe_price}" />
+
+
+                                    <StackLayout Padding="5,0,0,0">
+                                        <Label Text="РАЗМЕРНАЯ СЕТКА ОДЕЖДЫ" TextColor="Black" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+                                        <!-- Size Grid -->
+                                        <Grid >
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+
+                                            <!-- Headers -->
+                                            
+                                            <Label Grid.Row="0" Grid.Column="1" Text="ДЛИНА" FontAttributes="Bold" />
+                                            <Label Grid.Row="0" Grid.Column="2" Text="ШИРИНА" FontAttributes="Bold" />
+                                            <Label Grid.Row="0" Grid.Column="3" Text="РУКАВ" FontAttributes="Bold" />
+
+                                            <!-- Sizes -->
+                                            <Label Grid.Row="1" Grid.Column="0" Text="S" FontAttributes="Bold"/>
+                                            <Label Grid.Row="1" Grid.Column="1" Text="34-36" />
+                                            <Label Grid.Row="1" Grid.Column="2" Text="28" />
+                                            <Label Grid.Row="1" Grid.Column="3" Text="24" />
+                                            <Label Grid.Row="2" Grid.Column="0" Text="M" FontAttributes="Bold"/>
+                                            <Label Grid.Row="2" Grid.Column="1" Text="38-40" />
+                                            <Label Grid.Row="2" Grid.Column="2" Text="30" />
+                                            <Label Grid.Row="2" Grid.Column="3" Text="25" />
+                                            <Label Grid.Row="3" Grid.Column="0" Text="L" FontAttributes="Bold"/>
+                                            <Label Grid.Row="3" Grid.Column="1" Text="42-44" />
+                                            <Label Grid.Row="3" Grid.Column="2" Text="32" />
+                                            <Label Grid.Row="3" Grid.Column="3" Text="26" />
+                                            <Label Grid.Row="4" Grid.Column="0" Text="XL" FontAttributes="Bold"/>
+                                            <Label Grid.Row="4" Grid.Column="1" Text="46-48" />
+                                            <Label Grid.Row="4" Grid.Column="2" Text="34" />
+                                            <Label Grid.Row="4" Grid.Column="3" Text="27" />
+                                        </Grid>
+                                        
+                                    </StackLayout>
+                                    <Label Text="РОСТ МОДЕЛИ 175 СМ,ОН НОСИТ S" FontSize="12" TextColor="Black" Margin="15,0,0,0"/>
+                                    <StackLayout Orientation="Horizontal" Margin="0,30,0,0">
+                                        <Button Text="Заказать"  BackgroundColor="Transparent" TextColor="Black" x:Name="MakeTicket" Clicked="MakeTicket_Clicked"/>
+                                        <Button Text="В корзину" BackgroundColor="Transparent" TextColor="Black" x:Name="AddCart" Clicked="AddCart_Clicked"/>
+                                    </StackLayout>
+                                    
+                                </StackLayout>
+                                
+                            </StackLayout>
+
+                        </Frame>
+
+                    </StackLayout>
+                </StackLayout>
+
+
+            </Grid>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

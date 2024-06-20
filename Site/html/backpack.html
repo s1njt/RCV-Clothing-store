@@ -1,0 +1,128 @@
+User
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="..//css/backpack.css">
+
+    <link rel="icon" href="..//Site/icon/rcvlogo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossoWrigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>RCV</title>
+</head>
+<body>
+    <header>
+        <!-- Ссылки слева -->
+        <div class="left-links">
+            <a href="..//html/authUserNovinkiPage.html">НОВИНКИ</a>
+            <a href="#" id="catalog-link">КАТАЛОГ 🡫</a>
+            <a href="..//html/authUserMagazineAdressPage.html" id="offMagazin-link">ОФФ МАГАЗИНЫ</a>
+        </div>
+
+        <!-- Выпадающее меню каталога -->
+        <div class="catalog-form" id="catalog-form">
+            <div class="catalog-block">
+                <h1>ВЕРХ</h1>
+                <ul>
+                    <li><a href="#">ФУТБОЛКИ И ТОПЫ</a></li>
+                    <li><a href="#">РУБАШКИ</a></li>
+                    <li><a href="#">ПУЛОВЕРЫ И СВИТШОТЫ</a></li>
+                    <li><a href="..//html/authUserPalto.html">ПАЛЬТО И КУРТКИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>НИЗ</h1>
+                <ul>
+                    <li><a href="../html/authUserKatalogBrukoDginsiPage.html">БРЮКИ И ДЖИНСЫ</a></li>
+                    <li><a href="#">ПЛАТЬЯ И ЮБКИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>ОБУВЬ</h1>
+                <ul>
+                    <li><a href="#">КРОСОВКИ</a></li>
+                    <li><a href="#">БОТИНКИ</a></li>
+                    <li><a href="#">ТУФЛИ</a></li>
+                </ul>
+            </div>
+            <div class="catalog-block">
+                <h1>АКСЫ</h1>
+                <ul>
+                    <li><a href="#">ПОДВЕСКИ</a></li>
+                    <li><a href="#">КОЛЬЦА</a></li>
+                    <li><a href="#">БРАСЛЕТЫ</a></li>
+                    <li><a href="#">ГРИЛЗЫ</a></li>
+                    <li><a href="#">СЕРЬГИ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Логотип-->
+        <a href="..//html/authUserMainPage.html" class="center-title">RCV</a>
+
+        <!--  Ссылки справа -->
+        <div class="right-links">
+            <a href="..//html/sapportPage.html" id="sapport-link">САППОРТ</a>
+            <a href="..//html/profilPage.html" id="profile-link">404</a>
+            <script>
+                // Извлекаем nickname из localStorage
+                const nickname = localStorage.getItem('nickname');
+                document.getElementById('profile-link').innerText = nickname;
+            </script>
+            <a href="#"><img src="..//icon/search.png" alt="ПОИСК" id="search-link"></a>
+            <a href="..//html/backpack.html"><img src="..//icon/backpack.png" alt="РЮКЗАК" id="backpack-link"></a>
+        </div>
+
+        <!-- Поиск по странице -->
+        <div class="search-form" id="search-form">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="ПОИСК ПО САЙТУ">
+                <a href="#" id="send-link">🡪</a>
+            </div>
+            <div class="result">
+                <div id="search-result"></div> <!-- Блок для вывода результата -->
+            </div>
+            <div class="search-results-col">
+                <label>КОЛИЧЕСТВО РЕЗУЛЬТАТОВ: </label>
+                <div id="result-count"></div> <!-- Блок для вывода количества результатов -->
+            </div>
+        </div>
+    </header>
+    <h1 class="zagalovok">РЮКЗАК</h1>
+
+    <!-- Основной контейнер -->
+    <div class="container">
+
+    </div>
+    
+
+        <!-- Добавление еще товар  -->
+        <div class="additional-product-block">
+            <a href="../html/authUserKatalogBrukoDginsiPage.html" class="add-product-link">+</a>
+        </div>
+    </div>
+    <footer>
+        <div class="column">
+            <a href="#">© RCV/2024</a>
+        </div>
+        <div class="column">
+            <a href="#">ПОЛИТИКА ВОЗРАТА СРЕДСТВ</a>
+            <a href="#">ОТПЕЧАТКИ</a>
+            <a href="#">КЛИЕНТЫ</a>
+        </div>
+        <div class="column">
+            <a href="https://vk.com/ashxwhite">VK</a>
+            <a href="https://t.me/ASHXWHITE">TELEGRAM</a>
+            <a href="https://www.behance.net/ashxwhite">BEHENCE</a>
+            <a href="https://github.com/s1njt">GIT</a>
+        </div>
+    </footer>
+    <script src="..//js/main.js"></script>
+    <script src="../js/searth.js"></script>
+    <script src="../js/cool.js"></script>
+    <script src="..//js/API/backPackAPI.js"></script>
+</body>
+</html>

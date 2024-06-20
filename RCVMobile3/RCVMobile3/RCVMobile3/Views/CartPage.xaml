@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RCVMobile3.Views.CartPage">
+    <ContentPage.Content>
+        <ScrollView >
+            <Grid Margin="20" BackgroundColor="White">
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Vertical" WidthRequest="320">
+                        <Frame BorderColor="Black" Margin="0" Padding="1" WidthRequest="350">
+                            <StackLayout>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <ImageButton Source="burger.png" Grid.Column="0" x:Name="MenuBtn" HeightRequest="40" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                    <Label Text="RCV" TextColor="#0A151F" FontSize="30"  FontAttributes ="Bold" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                                    <Button BackgroundColor="Transparent" TextColor="Black" x:Name="LoginBtn"  Text="Войти" Grid.Column="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+
+                                </Grid>
+                                <Label Text="КОРЗИНА" FontSize="35" TextColor="Black"  HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Оплатить корзину" x:Name="PayCart" Clicked="PayCart_Clicked" Background="black"/>
+                                <ListView x:Name="TicketsLV" RowHeight="500" Margin="0, 50, 0, 0">
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <ViewCell>
+                                                <StackLayout>
+                                                    <Label Text="{Binding Clothe.clothe_name}" x:Name="ClotheNameEntry" TextColor="Black" FontSize="50" />
+                                                    <StackLayout Orientation="Horizontal">
+
+
+                                                        <Label Text="{Binding Clothe.clothe_price}" TextColor="Black" FontSize="25"/>
+                                                        <Label Text="₽" TextColor="Black" FontSize="25"/>
+                                                    </StackLayout>
+
+
+                                                    <Image Source="{Binding Clothe.clothe_image}" Aspect="AspectFit" />
+                                                    <Label Text="{Binding TicketsC.ticket_deliveryAdress}" TextColor="Black" FontSize="25"/>
+
+
+
+                                                    <Label IsVisible="false" Text="{Binding Clothe.clothe_description}" />
+                                                    <Label IsVisible="false" Text="{Binding Clothe.clothe_size}" />
+                                                    <Label IsVisible="false" Text="{Binding Clothe.clothe_type}" />
+                                                    <Label IsVisible="false" Text="{Binding Clothe.clothe_color}" />
+                                                    <Label IsVisible="false" Text="{Binding Clothe.clothe_textile}" />
+                                                </StackLayout>
+                                            </ViewCell>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                                
+                            </StackLayout>
+
+                        </Frame>
+
+                    </StackLayout>
+                </StackLayout>
+
+
+            </Grid>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

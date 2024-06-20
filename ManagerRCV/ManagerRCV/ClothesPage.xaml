@@ -1,0 +1,88 @@
+﻿<Window x:Class="ManagerRCV.ClothesPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManagerRCV"
+        mc:Ignorable="d"
+        Title="ClothesPage" Height="900" Width="1440">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="85*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="310*"/>
+            <ColumnDefinition Width="729*"/>
+            <ColumnDefinition Width="401"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Button x:Name="StockBtn" Click="StockBtn_Click" Content="СКЛАД" Background="Black" Foreground="White" Grid.Row="0" FontSize="20"/>
+         
+            <Button x:Name="TicketsBtn" Click="TicketsBtn_Click" Content="ЗАЯВКИ" Background="White" Foreground="Black" Grid.Row="1" FontSize="20"/>
+            <Button x:Name="PrintTicketsBtn" Click="PrintTicketsBtn_Click" Content="РАСПЕЧАТАТЬ" Background="White" Foreground="Black" Grid.Row="2" FontSize="20"/>
+
+
+
+        </Grid>
+
+        <TextBlock Text="₽5000" VerticalAlignment="Center" FontSize="25" Margin="50,0,24,0" Height="33"/>
+        <TextBlock Text="RCV" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" FontWeight="Bold" FontSize="30" Height="40" Width="58"/>
+
+        <StackPanel Orientation="Horizontal" Grid.Column="2" Margin="0,0,0,844" Grid.RowSpan="2">
+
+            <TextBlock Text="{Binding user_name}" Width="133" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Button Content="ВЫХОД" Width="133" x:Name="ExitBtn" Click="ExitBtn_Click"/>
+        </StackPanel>
+
+        <ListBox x:Name="ClothesLB" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding clothe_image}" Width="100" Height="100"/>
+                        <StackPanel>
+                            <TextBlock Text="{Binding clothe_name}" FontSize="72" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding clothe_price}" FontSize="50" FontWeight="Bold"/>
+                            <TextBlock Text="Размер:"/>
+                            <TextBlock Text="{Binding clothe_size}"/>
+                        </StackPanel>
+
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ListBox x:Name="TciketsLB" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Visibility="Hidden">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding ticket_acceptUserId}" Width="100" Height="100"/>
+                        <StackPanel>
+                            <TextBlock Text="{Binding ticket_productsId}" FontSize="72" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding ticket_contactNumber}" FontSize="50" FontWeight="Bold"/>
+                            <TextBlock Text="Размер:"/>
+                            <TextBlock Text="{Binding ticket_deliveryStatus}"/>
+                        </StackPanel>
+
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>

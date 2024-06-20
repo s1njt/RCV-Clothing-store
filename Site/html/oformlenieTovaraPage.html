@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/oformlenieTovara.css">
+    <link rel="icon" href="../icon/rcvlogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>RCV</title>
+</head>
+<body>
+
+<!-- Main container -->
+<div class="container">
+    <!-- Product photo -->
+    <div class="tovar-img">
+        <img id="tovar-photo" src="../image/kartochkaTovara/dgins.png" alt="Product Photo" class="tovar-photo">
+    </div>
+
+    <!-- Order information -->
+    <div class="main-content">
+        <div class="order-details">
+            <h1 id="product-name">ДЖИНСЫ NEW RCV</h1>
+
+            <!-- Address -->
+            <div class="adress-input">
+                <input type="text" id="address" placeholder="АДРЕС ДОСТАВКИ">
+            </div>
+
+            <!-- Postal code -->
+            <div class="postal-code-input">
+                <input type="text" id="postal-code" placeholder="ПОЧТОВЫЙ ИНДЕКС">
+            </div>
+
+            <!-- Full name -->
+            <div class="fio-input">
+                <input type="text" id="fio" placeholder="ФИО">
+            </div>
+
+            <!-- Product quantity and size -->
+            <div class="product-summary">
+                <h4>КОЛИЧЕСТВО - 1</h4>
+                <div class="dimensions">
+                    <h3>РАЗМЕР</h3>
+                    <div class="size-options">
+                        <p id="product-size">XS</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Price -->
+            <div class="price-block">
+                <h3 id="product-price">₽1400.00</h3>
+            </div>
+        </div>
+
+        <!-- Payment button -->
+        <a href="#" class="oplata-form-button" id="payment-link">ОПЛАТИТЬ КАРТОЙ</a>
+    </div>
+</div>
+
+<!-- Overlay for payment form -->
+<div class="overlay" id="overlay"></div>
+<div class="payment-form" id="payment-form">
+    <!-- Bank logos -->
+    <div class="bank-logos">
+        <img src="../icon/mirlogo.png" alt="Bank Logo 1">
+        <img src="../icon/visalogo.png" alt="Bank Logo 2">
+        <img src="../icon/masterlogo.png" alt="Bank Logo 3">
+        <img src="../icon/tinkoflogo.png" alt="Bank Logo 4">
+    </div>
+    <!-- Payment form -->
+    <form>
+        <!-- Card information -->
+        <div class="card-info">
+            <label for="card-number">Номер карты</label>
+            <input type="text" id="card-number" placeholder="1234 5678 9012 3456">
+            <label for="expiry-date">Срок действия</label>
+            <input type="text" id="expiry-date" placeholder="MM/ГГ">
+            <label for="cvv">CVV</label>
+            <input type="password" id="cvv" placeholder="123">
+        </div>
+        <!-- Payment button -->
+        <button type="button" id="pay-button">Оплатить</button>
+    </form>
+</div>
+
+<script src="../js/oplataCart.js"></script>
+<script src="../js/API/oformlenieTovaraAPI.js"></script>
+
+</body>
+</html>

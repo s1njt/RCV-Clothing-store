@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|c:\\users\\admin\\source\\repos\\managerrcv\\managerrcv\\infoaboutclothe.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|solutionrelative:managerrcv\\infoaboutclothe.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|c:\\users\\admin\\source\\repos\\managerrcv\\managerrcv\\clothespage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|solutionrelative:managerrcv\\clothespage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|c:\\users\\admin\\source\\repos\\managerrcv\\managerrcv\\clothespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|solutionrelative:managerrcv\\clothespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|c:\\users\\admin\\source\\repos\\managerrcv\\managerrcv\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|solutionrelative:managerrcv\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|c:\\users\\admin\\source\\repos\\managerrcv\\managerrcv\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|solutionrelative:managerrcv\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|c:\\users\\admin\\source\\repos\\managerrcv\\managerrcv\\model\\clothe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|solutionrelative:managerrcv\\model\\clothe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|c:\\users\\admin\\source\\repos\\managerrcv\\managerrcv\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|solutionrelative:managerrcv\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|c:\\users\\admin\\source\\repos\\managerrcv\\managerrcv\\model\\httpclienthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|solutionrelative:managerrcv\\model\\httpclienthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|c:\\users\\admin\\source\\repos\\managerrcv\\managerrcv\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EEA283A2-F0B6-42AA-940E-A04C6A9D0273}|ManagerRCV\\ManagerRCV.csproj|solutionrelative:managerrcv\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InfoAboutClothe.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\InfoAboutClothe.xaml",
+              "RelativeDocumentMoniker": "ManagerRCV\\InfoAboutClothe.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\InfoAboutClothe.xaml",
+              "RelativeToolTip": "ManagerRCV\\InfoAboutClothe.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T10:16:38.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClothesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\ClothesPage.xaml.cs",
+              "RelativeDocumentMoniker": "ManagerRCV\\ClothesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\ClothesPage.xaml.cs",
+              "RelativeToolTip": "ManagerRCV\\ClothesPage.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:37:49.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Clothe.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\Model\\Clothe.cs",
+              "RelativeDocumentMoniker": "ManagerRCV\\Model\\Clothe.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\Model\\Clothe.cs",
+              "RelativeToolTip": "ManagerRCV\\Model\\Clothe.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:30:15.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\Model\\User.cs",
+              "RelativeDocumentMoniker": "ManagerRCV\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\Model\\User.cs",
+              "RelativeToolTip": "ManagerRCV\\Model\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:29:57.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HttpClientHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\Model\\HttpClientHelper.cs",
+              "RelativeDocumentMoniker": "ManagerRCV\\Model\\HttpClientHelper.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\Model\\HttpClientHelper.cs",
+              "RelativeToolTip": "ManagerRCV\\Model\\HttpClientHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:28:36.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\App.xaml",
+              "RelativeDocumentMoniker": "ManagerRCV\\App.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\App.xaml",
+              "RelativeToolTip": "ManagerRCV\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T09:25:41.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClothesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\ClothesPage.xaml",
+              "RelativeDocumentMoniker": "ManagerRCV\\ClothesPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\ClothesPage.xaml",
+              "RelativeToolTip": "ManagerRCV\\ClothesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T09:25:04.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ManagerRCV\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\MainWindow.xaml",
+              "RelativeToolTip": "ManagerRCV\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T09:21:59.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManagerRCV\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ManagerRCV\\ManagerRCV\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ManagerRCV\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAEQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:21:58.425Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

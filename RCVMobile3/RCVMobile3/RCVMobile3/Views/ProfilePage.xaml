@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RCVMobile3.Views.ProfilePage">
+    <ContentPage.Content>
+        <ScrollView >
+            <Grid Margin="20" BackgroundColor="White">
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Vertical" WidthRequest="320">
+                        <Frame BorderColor="Black" Margin="0" Padding="1" WidthRequest="350">
+                            <StackLayout>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <ImageButton Source="burger.png" Grid.Column="0" x:Name="MenuBtn" Clicked="MenuBtn_Clicked" HeightRequest="40" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                    <Label Text="RCV" TextColor="#0A151F" FontSize="30"  FontAttributes ="Bold" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                                    <Button BackgroundColor="Transparent" TextColor="Black" x:Name="LoginBtn"  Text="Войти" Grid.Column="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+
+                                </Grid>
+
+                                <Label Text="ПРОФИЛЬ" FontSize="50" TextColor="Black" FontAttributes="Bold"/>
+                                <StackLayout>
+                                    <Label x:Name="NickLabel" Text="" FontSize="30" FontAttributes="Bold" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                                    <Label x:Name="CityLabel" Text="" TextColor="Black" HorizontalOptions="StartAndExpand" FontSize="25"/>
+                                    <Label x:Name="EmailLabel" Text="" HorizontalOptions="EndAndExpand" FontSize="29" TextColor="Black"/>
+                                    <Label x:Name="PhoneLabel" Text="" FontSize="29" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+                                    <StackLayout>
+                                            <Rectangle HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+                                        <Button x:Name="EditProfileBtn" Text="РЕДАКТИРОВАТЬ" HeightRequest="40" Clicked="EditProfileBtn_Clicked" TextColor="Black" BackgroundColor="Transparent"/>
+                                            <Rectangle HeightRequest="1" BackgroundColor="Black"/>
+                                    </StackLayout>
+                                    <StackLayout>
+                                        <Rectangle HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+                                        <Button x:Name="TicketsBtn" Text="ВАШИ ЗАКАЗЫ" HeightRequest="40" Clicked="TicketsBtn_Clicked" TextColor="Black" BackgroundColor="Transparent"/>
+                                        <Rectangle HeightRequest="1" BackgroundColor="Black"/>
+                                    </StackLayout>
+                                    <StackLayout>
+                                        <Rectangle HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+                                        <Button x:Name="CartBtn" Text="КОРЗИНА" HeightRequest="40" Clicked="CartBtn_Clicked" TextColor="Black" BackgroundColor="Transparent"/>
+                                        <Rectangle HeightRequest="1" BackgroundColor="Black"/>
+                                    </StackLayout>
+                                    <Label Text="QR-КОД ДЛЯ ПОЛУЧЕНИЯ ЗАКАЗА" HorizontalOptions="CenterAndExpand" FontSize="18" FontAttributes="Bold" TextColor="Black" Margin="0,15,0,0"/>
+                                    <Image Source="qrimage.png" Margin="0,0,0,0"/>
+                                    <Label FontSize="15" HorizontalOptions="FillAndExpand" TextColor="Black" Text="ПОДПИШИТЕСЬ НА РАННИЙ ДОСТУП К НОВЫМ ВЫПУСКАМИ СЭКОНОМЬТЕ 10% НА СВОЕМ ПЕРВОМ ЗАКАЗЕ."/>
+                                    <Entry x:Name="newsletterEntry" HeightRequest="40" Placeholder="E-MAIL" Margin="0,0,0,0"/>
+                                   
+
+
+                                </StackLayout>
+                            </StackLayout>
+
+                        </Frame>
+
+                    </StackLayout>
+                </StackLayout>
+
+
+            </Grid>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+
+    
+</ContentPage>
